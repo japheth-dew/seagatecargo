@@ -1,0 +1,233 @@
+<!-- <div class="info col-md-8">
+                                    <ul>
+                                        <li>
+                                            <i class="fa fa-clock-o"></i>
+                                            <p>
+                                                <span class="heading">Opening Hours</span>
+                                                <span>Mon - Sat: 09.00 - 17.00</span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-phone"></i>
+                                            <p>
+                                                <span class="heading">Call Us</span>
+                                                <span>(064) 234 54876</span>
+                                            </p>
+                                        </li>
+                                        <li class="last">
+                                            <i class="fa fa-envelope"></i>
+                                            <p>
+                                                <span class="heading">Email Us</span>
+                                                <span>logitrans@domain.com</span>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div> -->
+
+<!-- <ul>
+                                            <li><a href="index.html">Header Style 1</a></li>
+                                            <li><a href="header-style-2.html">Header Style 2</a></li>
+                                        </ul> -->
+<!-- <li><a href="blog.html">Blog</a></li> -->
+
+......................
+
+
+<div class="services-wrap-carousel">
+    <div class="item">
+        <div class="services-content">
+            <div class="services-image" style="background-image: url(img/content/services-item-1.jpg);">
+            </div>
+            <div class="services-text">
+                <h3 class="title">Overland Network</h3>
+                <p>As a leader in global air freight forwarding, OIA Global excels in providing tailored
+                    transportation</p>
+                <a href="#" class="button-normal with-icon">
+                    Read More
+                    <i class="icon icon-arrow-right"></i>
+                </a>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="services-content">
+            <div class="services-image" style="background-image: url(img/content/services-item-2.jpg);">
+            </div>
+            <div class="services-text">
+                <h3 class="title">Ocean Network</h3>
+                <p>As a leader in global air freight forwarding, OIA Global excels in providing tailored
+                    transportation</p>
+                <a href="#" class="button-normal with-icon">
+                    Read More
+                    <i class="icon icon-arrow-right"></i>
+                </a>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="services-content">
+            <div class="services-image" style="background-image: url(img/content/services-item-3.jpg);">
+            </div>
+            <div class="services-text">
+                <h3 class="title">Air Freight</h3>
+                <p>As a leader in global air freight forwarding, OIA Global excels in providing tailored
+                    transportation</p>
+                <a href="#" class="button-normal with-icon">
+                    Read More
+                    <i class="icon icon-arrow-right"></i>
+                </a>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="services-content">
+            <div class="services-image" style="background-image: url(img/content/services-item-4.jpg);">
+            </div>
+            <div class="services-text">
+                <h3 class="title">Cargo</h3>
+                <p>As a leader in global air freight forwarding, OIA Global excels in providing tailored
+                    transportation</p>
+                <a href="#" class="button-normal with-icon">
+                    Read More
+                    <i class="icon icon-arrow-right"></i>
+                </a>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="services-content">
+            <div class="services-image" style="background-image: url(img/content/services-item-5.jpg);">
+            </div>
+            <div class="services-text">
+                <h3 class="title">Storage</h3>
+                <p>As a leader in global air freight forwarding, OIA Global excels in providing tailored
+                    transportation</p>
+                <a href="#" class="button-normal with-icon">
+                    Read More
+                    <i class="icon icon-arrow-right"></i>
+                </a>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="services-content">
+            <div class="services-image" style="background-image: url(img/content/services-item-6.jpg);">
+            </div>
+            <div class="services-text">
+                <h3 class="title">Warehousing</h3>
+                <p>As a leader in global air freight forwarding, OIA Global excels in providing tailored
+                    transportation</p>
+                <a href="#" class="button-normal with-icon">
+                    Read More
+                    <i class="icon icon-arrow-right"></i>
+                </a>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </div>
+</div>
+<li class="has-sub"><a href="services.html">Resources</a>
+    <ul>
+        <li><a href="single-services.html">Overland Network</a></li>
+        <li><a href="single-services.html">Ocean Netwok</a></li>
+        <li><a href="single-services.html">Air Freight</a></li>
+        <li><a href="single-services.html">Cargo</a></li>
+        <li><a href="single-services.html">Storage</a></li>
+        <li><a href="single-services.html">Warehousing</a></li>
+    </ul>
+</li>
+
+<li class="has-sub"><a href="services.html">Resources</a>
+    <ul>
+        <li><a href="single-services.html">Overland Network</a></li>
+        <li><a href="single-services.html">Ocean Netwok</a></li>
+        <li><a href="single-services.html">Air Freight</a></li>
+        <li><a href="single-services.html">Cargo</a></li>
+        <li><a href="single-services.html">Storage</a></li>
+        <li class="last"><a href="single-services.html">Warehousing</a></li>
+    </ul>
+</li>
+<!-- 
+
+      <div class="team wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center wow fadeIn">
+                            <h2>Our Agents</h2>
+                        </div>
+
+                        <div class="team-wrap wow fadeIn" data-wow-delay="0.5s">
+                            <div class="team-item">
+                                <div class="team-photo">
+                                    <img src="img/content/team-1.jpg" alt="" />
+                                    <div class="team-details">
+                                        <h4>Linda Carolina</h4>
+                                        <!-- <p>Agent</p> -->
+                                        <!-- <ul>
+                                            <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="http://tumblr.com"><i class="fa fa-tumblr"></i></a></li>
+                                        </ul> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="team-item">
+                                <div class="team-photo">
+                                    <img src="img/content/team-2.jpg" alt="" />
+                                    <div class="team-details">
+                                        <h4>Michael Montemayor</h4>
+                                        <!-- <p>CO Founder</p>
+                                        <ul>
+                                            <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="http://tumblr.com"><i class="fa fa-tumblr"></i></a></li>
+                                        </ul> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="team-item">
+                                <div class="team-photo">
+                                    <img src="img/content/team-3.jpg" alt="" />
+                                    <div class="team-details">
+                                        <h4>Nabila Sakhir</h4>
+                                        <!-- <p>Financial Accountant</p>
+                                        <ul>
+                                            <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="http://tumblr.com"><i class="fa fa-tumblr"></i></a></li>
+                                        </ul> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+ -->
+
+
+
+
+
+ <input type="text" id="txtPath" placeholder="No file selected" />
+<input id="btnBrowse" type="button" onclick="document.getElementById('file').click();" value="Browse..." />
+<input type="file" style="display:none;" id="file" name="file" />
+<script>
+    document.getElementById("file").addEventListener("change", function (event) {
+        let output = document.getElementById("txtPath");
+        let files = event.target.files;
+        console.log(files);
+    }, false);
